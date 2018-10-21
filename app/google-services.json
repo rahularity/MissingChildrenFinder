@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "467224495018",
+    "firebase_url": "https://missingchild-54071.firebaseio.com",
+    "project_id": "missingchild-54071",
+    "storage_bucket": "missingchild-54071.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467224495018:android:2e916b36b83f7c7e",
+        "android_client_info": {
+          "package_name": "com.ithought.rahularity.missingchild"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467224495018-gc5t3j8gbeu399fur1p0n9vno4r9dn07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ithought.rahularity.missingchild",
+            "certificate_hash": "b0439295a5a05c1fe7693f28b52f2fa3aeb8f516"
+          }
+        },
+        {
+          "client_id": "467224495018-u00qms7en4ig1rtgkoep22377naki67l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTpcSklXjK5WSMVxhVxRKPeYKyv0sNua8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467224495018-u00qms7en4ig1rtgkoep22377naki67l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

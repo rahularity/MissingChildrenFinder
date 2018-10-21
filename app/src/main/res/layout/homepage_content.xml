@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/snippet_toolbar_home_activity"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/captured_image"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/missing_person"
+                android:layout_width="match_parent"/>
+
+
+            <Button
+                android:id="@+id/recognize_button"
+                android:layout_below="@+id/captured_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylepink"
+                android:text="Recognize"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_below="@id/recognize_button"
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/divider"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/progress"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+
+
+                    <TextView
+                        android:id="@+id/instruction_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:layout_centerInParent="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/orange"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:text="The faces in our database matching with this child will be shown here."
+                        android:textSize="24sp" />
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/recyclerView"
+                        android:scrollbars="vertical">
+                    </android.support.v7.widget.RecyclerView>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</merge>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/rel_layout1">
+
+            <include layout="@layout/snippet_toolbar_children_list"/>
+
+        </RelativeLayout>
+
+        <!--Middle Section-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout2"
+            android:background="@drawable/white_grey_border_bottom"
+            android:layout_below="@id/rel_layout1">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/progress"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+
+
+                    <TextView
+                        android:id="@+id/instruction_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:layout_centerInParent="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/orange"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:text="List of all missing children in our database"
+                        android:textSize="24sp" />
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/recyclerView"
+                        android:scrollbars="vertical">
+                    </android.support.v7.widget.RecyclerView>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</merge>

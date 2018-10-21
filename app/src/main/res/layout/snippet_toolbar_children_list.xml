@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/list_activity_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_grey_border_bottom">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/profileName"
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="List Of Missing Children"
+                        android:textColor="@color/black"/>
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/profile_menu"-->
+                        <!--android:layout_width="30dp"-->
+                        <!--android:layout_height="30dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginRight="20dp"-->
+                        <!--android:src="@drawable/ic_three_dots"-->
+                        <!--android:layout_alignParentRight="true"/>-->
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+</merge>
