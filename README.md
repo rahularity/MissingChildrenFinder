@@ -10,6 +10,7 @@ Missing Children Finder is an AI based Face Recognition Android Application whic
 * This project is designed to protect the fundamental rights of children, a childhood should not include begging on streets, working in agricultural fields and construction sites.
 * This project can be used against the cases like kidnapping, child labour, organ trade etc.
 
+
 ## Project's Structure:
 ### The Project is a Client -Server Mobile Application
 * Authenticating users.
@@ -17,6 +18,10 @@ Missing Children Finder is an AI based Face Recognition Android Application whic
 * Running Face Recognition on the picture.
 * Recognizing the identity of the missing children from the database.
 * Showing the details of the child's family and nearest police station.
+
+
+## Snapshots of the Application:
+//uploading soon...
 
 
 ## Future Extention of this Project:
