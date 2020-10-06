@@ -30,3 +30,5 @@ The idea is cover all the children of the country which also includes underprivi
 Major problems that can be targeted by this initiative are:
 * Covering all the slum area children will reduce the chances of children getting kidnapped and forced into labour, begging and organ trade.
 * Children from tribal areas are vulnerable as they are often lured to bigger cities on promise of job opportunities
+
+## System reuirements
